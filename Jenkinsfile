@@ -1,4 +1,3 @@
-//declrative
 pipeline{
 	agent any
 	stages{

@@ -25,7 +25,7 @@ pipeline{
 		success{
 			echo 'Stage successfully run...'
 		}
-		fail{
+		failure{
 			echo 'stage failed'
 		}
 	}

@@ -21,10 +21,10 @@ pipeline{
 			echo 'Hurrah! Congratulations for running the stage!'
 		}
 		success{
-			'echo Stage successfully run...'
+			echo 'Stage successfully run...'
 		}
 		fail{
-			'echo stage failed'
+			echo 'stage failed'
 		}
 	}
 	
